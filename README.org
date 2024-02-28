@@ -1,0 +1,7 @@
+* awaybeen
+
+This is a description of my awaybeen.
+
+** Usage
+
+To use my project, run this command: ./awaybeen --verbose
