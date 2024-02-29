@@ -1,5 +1,5 @@
 import sys
 
-import awaybeen
+import {{ cookiecutter.project_slug }}
 
-sys.exit(awaybeen.main())
+sys.exit({{ cookiecutter.project_slug }}.main())

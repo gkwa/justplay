@@ -1,4 +1,4 @@
-# awaybeen
+# {{ cookiecutter.project_slug }}
 
 ## Learning jinja2 template inheritance
 
