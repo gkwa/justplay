@@ -12,7 +12,7 @@ readme = "README.md"
 requires-python = ">= 3.8"
 
 [project.scripts]
-hello = "{{ cookiecutter.project_slug }}:main"
+{{ cookiecutter.project_slug }} = "{{ cookiecutter.project_slug }}:main"
 
 [build-system]
 requires = ["hatchling"]
