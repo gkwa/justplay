@@ -3,7 +3,6 @@ import argparse
 from . import config
 
 
-
 def get_args_parser(project_name):
     parser = argparse.ArgumentParser(prog=project_name)
     subparsers = parser.add_subparsers(dest="command")
@@ -17,6 +16,7 @@ def get_args_parser(project_name):
     show_parser = config_subparsers.add_parser("show")
     show_parser.set_defaults(func=lambda args: config_show(args, project_name))
     return parser
+
 
 def config_adddirs(args):
     print("Config adddirs")
