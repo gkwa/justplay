@@ -3,5 +3,6 @@
   "project_name": "Cookiecutter Website Simple",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "email": "anonymous@example.com",
-  "full_name": "Anonymous"
+  "full_name": "Anonymous",
+  "github_username": "anonymous"
 }
