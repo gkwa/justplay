@@ -10,7 +10,7 @@ dependencies = [
     "platformdirs==4.3.8",
 ]
 readme = "README.md"
-requires-python = "==3.13.3"
+requires-python = "==3.13.4"
 
 
 [project.urls]
