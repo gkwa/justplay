@@ -7,7 +7,7 @@ authors = [
 ]
 dependencies = [
     "jinja2==3.1.6",
-    "platformdirs==4.3.8",
+    "platformdirs==4.4.0",
 ]
 readme = "README.md"
 requires-python = "==3.13.7"
